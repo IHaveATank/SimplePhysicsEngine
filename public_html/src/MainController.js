@@ -20,6 +20,7 @@ myModule.controller("MainCtrl", function ($scope) {
     gEngine.Core.initializeWebGL('GLCanvas');
     $scope.mCanvasMouse = new CanvasMouseSupport('GLCanvas'); 
     
+    $scope.testingGit = 0;
     // All the mouse coordinate points
     $scope.mClientX = 0;
     $scope.mClientY = 0;
